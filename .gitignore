@@ -1,0 +1,11 @@
+# 実データ（職員の個人情報）を書き出したものは公開しない
+*.csv
+*.xlsx
+data/
+
+# Node
+node_modules/
+npm-debug.log*
+
+# macOS
+.DS_Store

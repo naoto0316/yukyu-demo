@@ -1,0 +1,14 @@
+{
+  "name": "yukyu-demo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "有給休暇管理シートのデモ（Google スプレッドシート＋Apps Script・計算ロジックは Node でテスト可能）",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node test/leave-calc.test.js",
+    "preview": "node test/leave-calc.test.js --print"
+  }
+}
